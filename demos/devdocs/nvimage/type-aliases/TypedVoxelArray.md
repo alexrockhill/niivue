@@ -1,0 +1,12 @@
+# Type Alias: TypedVoxelArray
+
+```ts
+type TypedVoxelArray =
+  | Float32Array
+  | Uint8Array
+  | Int16Array
+  | Float64Array
+  | Uint16Array;
+```
+
+Defined in: [nvimage/index.ts:24](https://github.com/alexrockhill/niivue/blob/main/packages/niivue/src/nvimage/index.ts#L24)
